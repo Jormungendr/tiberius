@@ -4,16 +4,17 @@ authors = [
     "Julius de Bruijn <bruijn@prisma.io>",
     "Eric Sheppard <eric@eigenmo.de>",
     "Yoshua Wuyts <yoshuawuyts@gmail.com>",
+    "zitong Tian <zitong.tian@outlook.com>"
 ]
 description = "A TDS (MSSQL) driver"
 documentation = "https://docs.rs/tiberius/"
-edition = "2021"
+edition = "2024"
 keywords = ["tds", "mssql", "sql"]
 license = "MIT/Apache-2.0"
-name = "tiberius"
+name = "tiberius-rustls"
 readme = "README.md"
-repository = "https://github.com/prisma/tiberius"
-version = "0.12.3"
+repository = "https://github.com/Jormungender/tiberius"
+version = "0.12.4"
 
 [workspace]
 members = ["runtimes-macro"]
